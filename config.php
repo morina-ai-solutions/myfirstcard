@@ -1,3 +1,3 @@
 <?php
-define("WEBMASTER_EMAIL", 'your-email@address-here.com');
+define("WEBMASTER_EMAIL", 'getstarted@myfirstcard.de');
 ?>
