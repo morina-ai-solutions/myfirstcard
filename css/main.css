@@ -5699,7 +5699,7 @@ input {
   height: 672px;
   width: 100%;
   position: fixed;
-  background: url('http://www.placehold.it/1400x600') center center no-repeat;
+  background: url('../images/background.jpg') center center no-repeat;
   background-size: cover;
   z-index: -100;
 }
