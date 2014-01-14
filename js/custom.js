@@ -22,7 +22,7 @@ $(document).ready(function() {
 	/* ========== BOOTSTRAP CAROUSEL ========== */
 
 	$('.carousel').carousel({
-	  interval: 4000
+	  interval: 6000
 	});
 
 
