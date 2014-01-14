@@ -29,6 +29,12 @@
         ga('require', 'linkid', 'linkid.js');
         ga('send', 'pageview');
     </script>
+    <!-- klappt noch nicht, glaub ich zumindest -->
+    <script>
+        $('#submit').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'nav-buttons');
+        });
+    </script>
 
 
     <!--///////////////////////////////////////// PARALLAX BACKGROUND ////////////////////////////////////////-->
