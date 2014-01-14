@@ -37,7 +37,7 @@ $(document).ready(function() {
 			data: str,
 			success: function(msg) {
 				if(msg == 'OK') {
-					result = '<div class="alert alert-success">Yeeha, you are signed up!"</div>';
+					result = '<div class="alert alert-success">Vielen Dank für die Eintragung! Wir melden uns bald bei Ihnen.</div>';
 					setTimeout("location.reload(true);",7000);
 			  	} else {
 					result = msg;
@@ -60,7 +60,7 @@ $(document).ready(function() {
 			data: str,
 			success: function(msg) {
 				if(msg == 'OK') {
-					result = '<div class="alert alert-success">All good, message sent!</div>';
+					result = '<div class="alert alert-success">Ihre Nachricht wurde versandt.</div>';
 					$(".input-group").hide();
 					setTimeout("location.reload(true);",7000);
 			  	} else {
