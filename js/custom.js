@@ -97,7 +97,7 @@ $(document).ready(function() {
 	
 	$("#tweets-feed").tweet({
 	  join_text: false,
-	  username: "envato", // Change username here
+	  username: "MyfirstcardDe", // Change username here
 	  modpath: './assets/twitter/', 
 	  avatar_size: false,
 	  count: 1, // number of tweets
