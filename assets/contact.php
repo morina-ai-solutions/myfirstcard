@@ -25,33 +25,33 @@ $error = '';
 
 if(!$name)
 {
-$error .= 'Please enter your name.<br />';
+$error .= 'Bitte geben Sie Ihren Namen ein.<br />';
 }
 
 // Check email
 
 if(!$email)
 {
-$error .= 'Please enter an e-mail address.<br />';
+$error .= 'Bitte geben Sie eine E-Mail Adresse an.<br />';
 }
 
 if($email && !ValidateEmail($email))
 {
-$error .= 'Please enter a valid e-mail address.<br />';
+$error .= 'Bitte geben Sie eine gültige E-Mail Adresse an.<br />';
 }
 
 // Check message (length)
 
 if(!$message)
 {
-$error .= "You don't have anything to say?<br />";
+$error .= "Möchten Sie uns nicht gerne etwas mitteilen?<br />";
 }
 
 
 if(!$error)
 {
 ini_set("sendmail_from", WEBMASTER_EMAIL); // for windows server
-$mail = mail(WEBMASTER_EMAIL, "New message from contact form - Booom!", $message,
+$mail = mail(WEBMASTER_EMAIL, "Eine neue Anfrage zur Verdammnis ist erfolgt.", $message,
      "From: ".$name." <".$email.">\r\n"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
@@ -59,7 +59,7 @@ $mail = mail(WEBMASTER_EMAIL, "New message from contact form - Booom!", $message
 
 if($mail)
 {
-echo 'OK';
+echo 'Vielen Dank. Sie hören so schnell wie möglich von uns.';
 }
 
 }

@@ -22,12 +22,12 @@ $error = '';
 
 if(!$email)
 {
-$error .= 'Please enter an e-mail address.';
+$error .= 'Bitte geben Sie eine E-Mail Adresse an.';
 }
 
 if($email && !ValidateEmail($email))
 {
-$error .= 'Please enter a valid e-mail address.';
+$error .= 'Bitte geben Sie eine gültige E-Mail Adresse an.';
 }
 
 // Check message (length)
@@ -38,7 +38,7 @@ if(!$error)
 ini_set("sendmail_from", WEBMASTER_EMAIL); // for windows server
 
 // The e-mail message being sent to the admin - you can change the content of the message below.
-$mail = mail(WEBMASTER_EMAIL, "Newsletter Signup Request for Booom! Template", "Sweet, you can add " . $email . " to the newsletter mailing list!",
+$mail = mail(WEBMASTER_EMAIL, "Eine neue Bekehrung ist erfolgt.", "Super, nimm " . $email . " in deinen Bann auf!",
      "From: <".$email.">\r\n"
     ."Reply-To: ".$email."\r\n"
     ."X-Mailer: PHP/" . phpversion());
@@ -46,7 +46,7 @@ $mail = mail(WEBMASTER_EMAIL, "Newsletter Signup Request for Booom! Template", "
 
 if($mail)
 {
-echo 'OK';
+echo 'Vielen Dank. Sie hören bald von uns.';
 }
 
 }
