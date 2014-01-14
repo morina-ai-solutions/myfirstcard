@@ -5733,6 +5733,22 @@ input {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+/* ========== HOWITWORKS SECTION ========== */
+#howitworks {
+  padding: 0;
+}
+#howitworks .howitworks-section-white,
+#howitworks .howitworks-section-gray {
+  padding: 72px 0;
+  -webkit-backface-visibility: hidden;
+}
+#howitworks .howitworks-section-gray {
+  background-color: #ecf0f1;
+}
+#howitworks .howitworks-section-white {
+  background-color: white;
+}
+
 /* ========== NEWSLETTER SECTION ========== */
 #newsletter {
   background-color: #1abc9c;
