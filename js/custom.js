@@ -101,15 +101,15 @@ $(document).ready(function() {
 	  modpath: './assets/twitter/', 
 	  avatar_size: false,
 	  count: 1, // number of tweets
-	  loading_text: "loading tweets...",
-	  seconds_ago_text: "about %d seconds ago",
-	  a_minutes_ago_text: "about a minute ago",
-	  minutes_ago_text: "about %d minutes ago",
-	  a_hours_ago_text: "about an hour ago",
-	  hours_ago_text: "about %d hours ago",
-	  a_day_ago_text: "about a day ago",
-	  days_ago_text: "about %d days ago",
-	  view_text: "view tweet on twitter"
+	  loading_text: "lade tweets...",
+	  seconds_ago_text: "vor ungefähr %d Sekunden",
+	  a_minutes_ago_text: "vor ungefähr einer Minute",
+	  minutes_ago_text: "vor ungefähr %d Minuten",
+	  a_hours_ago_text: "vor ungefähr einer Stunde",
+	  hours_ago_text: "vor ungefähr %d Stunden",
+	  a_day_ago_text: "vor ungefähr einem Tag",
+	  days_ago_text: "vor ungefähr %d Tage",
+	  view_text: "betrachte tweet auf twitter"
 	});
 
 	
