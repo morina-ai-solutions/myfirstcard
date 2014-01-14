@@ -19,6 +19,12 @@
         ga('require', 'linkid', 'linkid.js');
         ga('send', 'pageview');
         </script>
+        <!-- klappt noch nicht, glaub ich zumindest -->
+        <script>
+            $('#submit').on('click', function() {
+                    ga('send', 'event', 'button', 'click');
+            });
+        </script>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
         <!--[if lt IE 9]>
@@ -29,12 +35,6 @@
     
     <!-- Scrollspy set in the body -->
     <body id="home" data-spy="scroll" data-target=".main-nav" data-offset="73">
-    <!-- klappt noch nicht, glaub ich zumindest -->
-    <script>
-        $('#submit').on('click', function() {
-                ga('send', 'event', 'button', 'click');
-        });
-    </script>
 
 
     <!--///////////////////////////////////////// PARALLAX BACKGROUND ////////////////////////////////////////-->
