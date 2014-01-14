@@ -5709,15 +5709,15 @@ input {
   background-size: cover;
   z-index: -100;
 }
-/* ========== FEATURES SECTION ========== */
-#features {
+/* ========== WHYMFC SECTION ========== */
+#whymfc {
   background-color: white;
   padding-bottom: 48px;
 }
-#features .feature-icon {
+#whymfc .feature-icon {
   margin: 24px auto;
 }
-#features .feature-icon img {
+#whymfc .feature-icon img {
   height: 168px;
   width: 168px;
   -webkit-transition: all 0.2s ease;
@@ -5726,7 +5726,7 @@ input {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-#features .feature-icon img:hover {
+#whymfc .feature-icon img:hover {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
