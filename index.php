@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+require_once('phpab.php'); 
+$test_A = new phpab('navigation'); // replace by (..,TRUE) to turn off GA tracking and maintain variation
+$test_A->add_variation('betatest', 'Beta Tester werden');
+$test_A->add_variation('herewego', 'Los geht\'s');
+
+
+?><!DOCTYPE html>
 <html lang="de">
     <head>
         <meta charset="utf-8">
@@ -69,7 +76,7 @@
                             <!-- Menu items go here -->
                             <li class="active hidden"><a href="#home">Home</a></li>
                             <li><a href="#whymfc">Warum myfirstcard?</a></li>
-                            <li><a href="#newsletter">Los geht's</a></li>
+                            <li><a href="#newsletter">{phpab navigation}Los geht's!{/phpab navigation}</a></li>
                             <li><a href="#howitworks">Wie funktioniert es?</a></li>
                             <li><a href="#info">Wer wir sind</a></li>
                             <li><a href="#faq">FAQ/Kontakt</a></li>
