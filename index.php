@@ -1,6 +1,6 @@
 <?php
 require_once('phpab.php'); 
-$test_A = new phpab('navigation'); // replace by (..,TRUE) to turn off GA tracking and maintain variation
+$test_A = new phpab('navigation'); // replace by (..,TRUE) to turn off GA tracking and actually SEE variation
 $test_A->add_variation('betatest', 'Beta Tester werden');
 $test_A->add_variation('herewego', 'Los geht\'s');
 
